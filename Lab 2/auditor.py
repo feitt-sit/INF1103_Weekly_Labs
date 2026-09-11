@@ -13,8 +13,8 @@ while True:
             continue
         if quantity > 500:
             print("Alert: Stock number exceeds 500")
-            print("Current inventory: ", inventory)
-            continue
+            print("Exiting loop.")
+            break
         inventory += quantity
         print(f"Current inventory: {inventory}")
     except ValueError:
