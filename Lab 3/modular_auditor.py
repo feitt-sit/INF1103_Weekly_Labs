@@ -1,4 +1,5 @@
 inventory = 0
+deliveries = 0
 failed_attempts = 0
 total_tax = 0
 def get_valid_input():
@@ -30,7 +31,8 @@ def calculate_tax(amount):
     return amount * tax_rate
 
 def generate_report(total_units, failed_attempts):
-    print(f"Total deliveries processed: {total_units}")
+    print(f"Total deliveries processed: {deliveries}")
+    print(f"Total units in inventory: {total_units}")
     print(f"Number of failed attempts: {failed_attempts}")
     print(f"Total tax collected: {total_tax}")
 
@@ -43,9 +45,12 @@ while True:
         failed_attempts += 1
         continue
     if inventory + validated_input > 500:
+        print("Alert: Stock number exceeds 500")
+        print("Exiting program.")
         generate_report(inventory, failed_attempts)
         break
     inventory = process_delivery(inventory, validated_input)
     tax = calculate_tax(validated_input)
     total_tax += tax
+    deliveries += 1
     print(f"Current inventory: {inventory}")
