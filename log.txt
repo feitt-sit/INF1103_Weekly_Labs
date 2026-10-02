@@ -1,0 +1,41 @@
+commit 42d077a7bc8eb1bb9500b6f4785d5bf2c38d7306
+Author: feitt-sit <2600602@sit.singaporetech.edu.sg>
+Date:   Sat Sep 26 16:26:47 2026 +0800
+
+    Added Lab 4 folder
+
+commit 2e2060fb9e7844e82ec0f7bc6f094c1ccd0f292a
+Author: feitt-sit <2600602@sit.singaporetech.edu.sg>
+Date:   Sun Sep 20 07:48:52 2026 +0800
+
+    Added docstrings and comments to explain the functions and the different lines of code
+
+commit 4c527a0a0534154eb186e3966b8e8443d3475a88
+Author: feitt-sit <2600602@sit.singaporetech.edu.sg>
+Date:   Sun Sep 20 07:36:30 2026 +0800
+
+    Added deliveries processed counter and an alert message if stock exceeds 500.
+
+commit 09fec6d634fc4861034fc6140e4c9dde8f17b499
+Author: feitt-sit <2600602@sit.singaporetech.edu.sg>
+Date:   Sun Sep 20 02:55:31 2026 +0800
+
+    Added Lab 3 modular auditor
+
+commit 38d7e3c34ca89a1ee360efe730a955d0dc5ce7d5
+Author: feitt-sit <2600602@sit.singaporetech.edu.sg>
+Date:   Fri Sep 11 10:52:28 2026 +0800
+
+    Made program break loop if stock exceeds 500.
+
+commit 85c5e61302d490364bf5f0aa5285c2eb181e92e7
+Author: feitt-sit <2600602@sit.singaporetech.edu.sg>
+Date:   Fri Sep 11 10:49:56 2026 +0800
+
+    Added auditory.py
+
+commit 73c131ee954cab0495a08cfc661fb06a4f802d59
+Author: Fei Tat <gohfeitat@gmail.com>
+Date:   Fri Sep 4 10:31:30 2026 +0800
+
+    First Post
